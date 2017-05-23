@@ -997,6 +997,11 @@ form #btn-formData{
     .social ul li a {
         padding: 10px;
     }
+
+    /*-------NOSOTROS----------*/
+    .about-us-us .text-about-us.container{
+        width: 90%;
+    }
     
     
 
@@ -1063,6 +1068,11 @@ form #btn-formData{
     }
     .social ul li a {
         padding: 7px;
+    }
+
+    /*-------NOSOTROS----------*/
+    .about-us-us .text-about-us.container{
+        width: 80%;
     }
 
 }
