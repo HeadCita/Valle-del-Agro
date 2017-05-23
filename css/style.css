@@ -972,11 +972,11 @@ form #btn-formData{
 }
 
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
 }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
     /*------HEADER----------*/
     .mobile-bar {
         box-sizing: inherit;
@@ -1022,4 +1022,8 @@ form #btn-formData{
         flex-direction: column;
     }
 
+}
+
+@media screen and (max-width: 1100px) {
+    
 }
