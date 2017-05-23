@@ -614,7 +614,7 @@ footer{
     color: #FFF;
     line-height: 25px;
     font-size: 18px;
-    flex-basis: 50%;
+    width: 50%;
 
 }
 
@@ -973,6 +973,33 @@ form #btn-formData{
 
 @media screen and (max-width: 500px) {
 
+
+
+    /*-------FOOTER----------*/
+    .content-footer{
+        padding: 20px 5px 10px 5px;
+    }
+    .footer-column{
+        display: block;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .social{
+        display: block;
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .social ul{
+        margin-top: 25px;
+        justify-content: center;
+    }
+    .social ul li a {
+        padding: 10px;
+    }
+    
+    
+
 }
 
 @media screen and (max-width: 720px) {
@@ -1019,6 +1046,23 @@ form #btn-formData{
     header nav ul {
         width: 100%;
         flex-direction: column;
+    }
+
+
+    /*-------FOOTER----------*/
+    .content-footer{
+        width: 100%;
+        padding: 20px 10px 10px 10px;
+    }
+    .footer-column{
+        width: 40%;
+        font-size: 16px;
+    }
+    .social{
+        width: 40%;
+    }
+    .social ul li a {
+        padding: 7px;
     }
 
 }
