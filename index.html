@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valle del Agro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider(
+                {
+                    animation: 'slide',
+                    touch: true,
+                    pauseOnHover: false,
+                    pauseOnAction: false,
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+    <a href="#" class="fa fa-angle-up" aria-hidden="true" id="floatButton"></a>
+    <div class="mobile-bar"><span>##</span>Valle del Agro</div>
+    <header>
+        <div class="container">
+            <figure><img src="img/logo/logo.png" alt="Valle del Agro"></figure>
+            <nav>
+                <ul>
+                    <li><a href="http://valledelagro.com/" class="active">Inicio</a></li>
+                    <li><a href="http://valledelagro.com/productos" class="menuProducts">Productos</a>
+                        <ul>
+                            <li><a>Productos secos</a></li>
+                            <li><a>Productos frescos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://valledelagro.com/nosotros">Nosotros</a></li>
+                    <li><a href="http://valledelagro.com/contacto">Contacto</a></li>
+                    <li class="flag"><a href="http://valledelagro.com/"><img src="img/languages/spain.png" alt="En español"></a></li>
+                    <li class="flag"><a href="#"><img src="img/languages/united-states-of-america.png" alt="In English"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr class="bottom-header">
+
+    <!-- Banner Slide-->
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="img/banner/BannerValleChira.jpg" alt="Valle de Chira">
+                <section class="flex-caption">
+                    <p></p>
+                </section>
+            </li>
+            <li>
+                <img src="img/banner/ValleDeFrejol.jpg" alt="Valle de Frejol">
+                <section class="flex-caption">
+                    <p></p>
+                </section>
+            </li>
+            <li>
+                <img src="img/banner/BannerMango.jpg" alt="Mango">
+                <section class="flex-caption">
+                    <p></p>
+                </section>
+            </li>
+            <li>
+                <img src="img/banner/BannerPalta.jpg" alt="Palta">
+                <section class="flex-caption">
+                    <p></p>
+                </section>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- Productos-->
+    <section class="products-gallery">
+        <h2>Nuestros Productos</h2>
+        <span class="fa fa-angle-down underline"></span> <!--clase general para todas esta flechas-->
+        <div class="contenedor">
+            <div class="column-marron marron-1">
+                <div class="items first-column secos">
+                    <div class="producto seco">
+                        <!--<img src="http://lorempixel.com/500/300" alt="">-->
+                    </div>
+                    <a href="#">
+                        <h3>Productos secos <span class="fa fa-angle-right"></spancla></h3>
+                    </a>
+                </div>
+                <div class="items first-column">
+                    <div class="producto">
+                        <img src="img/galeria/castilla300x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Frijol Castilla</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+                <div class="items first-column">
+                    <div class="producto">
+                        <img src="img/galeria/panamito300x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Frijol Panamito</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+                
+                <div class="items first-column last-item">
+                    <div class="producto">
+                        <img src="img/galeria/palo300x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Frejol de Palo</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+            </div>
+            <div class="column-marron">
+                <div class="items second-column first-item">
+                    <div class="producto">
+                        <img src="img/galeria/canario300x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Frejol Canario</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+                
+                <div class="items second-column">
+                    <div class="producto">
+                        <img src="img/galeria/loctao300x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Frijol Loctao</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+                <div class="items second-column">
+                    <div class="producto">
+                        <img src="img/galeria/pallargrande300x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Pallar</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+                <div class="items second-column last-item">
+                    <div class="producto">
+                        <img src="img/galeria/pallarbb300x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Pallar Bebé</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+            </div>
+            <div class="blue-column">
+                <div class="items third-column frescos">
+                    <div class="producto fresco blue">
+                        <!--<img src="http://lorempixel.com/500/300" alt="">-->
+                    </div>
+                    <a href="#">
+                        <h3>Productos frescos <span class="fa fa-angle-right"></span></h3>
+                    </a>
+                </div>
+                <div class="items third-column">
+                    <div class="producto blue">
+                        <img src="img/galeria/mango500x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Mango</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+                <div class="items third-column last-item">
+                    <div class="producto blue">
+                        <img src="img/galeria/palta500x300.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <h4>Palta</h4>
+                        <!--<div class="producto__descripcion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
+                        </div>-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Nosotros-->
+    <section class="about-us">
+        <h2>Nosotros</h2>
+        <span class="fa fa-angle-down underline"></span>
+        <div class="img-about">
+        </div>
+        <div class="text-about container">
+            <p><span>CORPORACIÓN VALLE DEL AGRO SAC</span> es una empresa peruana dedicada a la producción,  comercialización de legumbres y productos frescos  en los mercados locales e internacionales. Como empresa agroindustrial estamos enfocados a brindar productos de calidad para nuestros clientes y sus familias, interesados en su bienestar de cada integrante seleccionamos cada fruto con altos estándares de calidad en cada proceso.</p>
+            <a href="/nosotros"><button>Saber más..</button></a>
+        </div>
+    </section>
+
+
+    <!--Contáctanos-->
+    <section class="contact-us">
+        <h2>Contáctanos</h2>
+        <span class="fa fa-angle-down underline"></span>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/d/embed?mid=15Jq1GcUlgWpi-bXe3iEyw9UJbcI" width="100%" height="440" frameborder="0"></iframe>
+        </div>
+
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="content-footer">
+            <div class="footer-column">
+                <p class="p-title">Corporación Valle del Agro SAC</p>
+                <p><span class="black">Dirección:</span> Av. San Ramón Mz. A Lote 04 Urb. San Dionisio, El Chipre – Piura</p>
+                <p><span class="black">Teléfono:</span> (51) 941 125 848</p>
+                <p><span class="black">E-Mail:</span> administracion@valledelagro.com <br> mdioses@valledelagro.com</p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="http://www.facebook.com/valledelagro" target="_blank" class="fa fa-facebook-official" id="fb"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/valledelagro" target="_blank" class="fa fa-twitter" id="tw"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCZYfwXgnERedYGLzn1zv34g" target="_blank" class="fa fa-youtube" id="yt"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/valledelagro" target="_blank" class="fa fa-instagram" id="li"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="privacy-policy">
+            <p>Valle del Agro &copy; 2017. Privacy Policy | Desarrollado por HeadCita </p>
+        </div>
+    </footer>
+
+    <script src="js/source.js"></script>
+</body>
+</html>
