@@ -775,11 +775,11 @@ footer .content-footer .footer-column p .black {
 .panels__item .image-description .description h3{
     font-size: 45px;
     line-height: 1.5em;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .panels__item .image-description .description hr{
-    margin-top: 25px;
+    margin-top: 15px;
     align-self: flex-end;
 }
 
@@ -788,12 +788,11 @@ footer .content-footer .footer-column p .black {
 }
 
 .panels__item p{
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .panels__item .features p{
-    display: inline-block;
-    margin-top: 25px;
+    margin-top: 28px;
 }
 
 .container {
