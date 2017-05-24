@@ -125,5 +125,18 @@
 	}
 
 
+	//Navegación tabs
+	let dest = location.hash.slice(1);
+	if (dest) {
+		let tab = document.getElementById(dest);
+		if (tab) {
+			tab.click();
+			if (dest == 'mango' || dest == 'palta') {
+				window.location.hash = '#productos-frescos';
+			} else {
+				window.location.hash = '#';
+			}
+		}
+	}
 
 })();

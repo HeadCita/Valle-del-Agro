@@ -737,6 +737,7 @@ footer .content-footer .footer-column p .black {
 .panels{
     margin: 15px;
     flex-basis: calc(75% - 30px);
+    min-height: 420px;
 }
 
 .panels__item{
