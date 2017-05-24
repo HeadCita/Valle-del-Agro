@@ -383,19 +383,19 @@ header nav ul li ul:hover {
 
 .contenedor .first-column {
     width: calc(23% - 0px);
-    height: 273px;
+    height: auto;
     padding-left: 10px;
 }
 
 .contenedor .second-column {
     width: calc(25% - 0px);
-    height: 273px;
+    height: auto;
     padding-left: 10px;
 }
 
 .contenedor .third-column {
     width: calc(34.5% - 0px);
-    height: 273px;
+    height: auto;
     padding-left: 10px;
 }
 
@@ -970,9 +970,36 @@ form #btn-formData{
     font-size: 18px;
 }
 
+@media screen and (max-width: 1100px) {
+    
+    /* ---   GALERIA --- */
 
-@media screen and (max-width: 500px) {
+    .contenedor .first-column {
+        width: calc(25% - 0px);
+        height: auto;
+    }
 
+    .contenedor .second-column {
+        width: calc(25% - 0px);
+        height: auto;
+    }
+
+    .contenedor .third-column {
+        width: calc(33.33% - 0px);
+        height: auto;
+    }
+
+    .contenedor .frescos {
+        width: calc(33.33% - 0px);
+    }
+
+    .contenedor .secos {
+        width: calc(25% - 0px);
+    }
+
+    .contenedor .last-item {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -1023,6 +1050,8 @@ form #btn-formData{
 
 }
 
-@media screen and (max-width: 1100px) {
-    
+@media screen and (max-width: 500px) {
+ body {
+     background-color: red;
+ }
 }
