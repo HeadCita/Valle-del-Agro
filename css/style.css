@@ -125,13 +125,17 @@ header nav ul li ul{
 }
 
 header nav ul li ul li{
+    width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 header nav ul li ul li a{
     color: white;
     cursor: pointer;
     border-radius: 0;
+    padding: 10px 10px;
+    margin: 0;
 }
 
 header nav ul li ul li a:hover{
@@ -723,6 +727,7 @@ footer .content-footer .footer-column p .black {
     margin-bottom: 1px;  
     cursor: pointer;
     color: #75787B;
+    font-size: 20px;
 }
 .tabs__item.tab-active{
     color: #00B140;
