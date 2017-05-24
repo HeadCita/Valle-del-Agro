@@ -976,43 +976,6 @@ form #btn-formData{
     font-size: 18px;
 }
 
-
-@media screen and (max-width: 500px) {
-
-
-
-    /*-------FOOTER----------*/
-    .content-footer{
-        padding: 20px 5px 10px 5px;
-    }
-    .footer-column{
-        display: block;
-        flex-basis: 100%;
-        text-align: center;
-    }
-    .social{
-        display: block;
-        flex-basis: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .social ul{
-        margin-top: 25px;
-        justify-content: center;
-    }
-    .social ul li a {
-        padding: 10px;
-    }
-
-    /*-------NOSOTROS----------*/
-    .about-us-us .text-about-us.container{
-        width: 90%;
-    }
-    
-    
-
-}
-
 @media screen and (max-width: 720px) {
     /*------HEADER----------*/
     .mobile-bar {
@@ -1081,7 +1044,58 @@ form #btn-formData{
         width: 80%;
     }
 
+    /*---CONTACTO---*/
+    form .content-form .form-column{
+	    width: 100%;
+	}
+
+    form .content-formrm-data{
+	    width: 100%;
+    }
+
+	form .content-form .form-column .social-contact ul{
+        justify-content: center;
+    }
 }
+
+
+@media screen and (max-width: 500px) {
+
+
+
+    /*-------FOOTER----------*/
+    .content-footer{
+        padding: 20px 5px 10px 5px;
+    }
+    .footer-column{
+        display: block;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .social{
+        display: block;
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .social ul{
+        margin-top: 25px;
+        justify-content: center;
+    }
+    .social ul li a {
+        padding: 10px;
+    }
+
+    /*-------NOSOTROS----------*/
+    .about-us-us .text-about-us.container{
+        width: 90%;
+    }
+    
+    
+
+}
+
+
 
 @media screen and (max-width: 1100px) {
     
