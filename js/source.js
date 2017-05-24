@@ -125,5 +125,20 @@
 	}
 
 
-
+	//Navegación tabs
+	let dest = location.hash.slice(1);
+	let pfrescos = document.getElementById('pfrescos'),
+		psecos = document.getElementById('psecos');
+	console.log(dest);
+	if (dest) {
+		let tab = document.getElementById(dest);
+		if (tab) {
+			tab.click();
+			if (dest == 'mango' || dest == 'palta') {
+				if(pfrescos) pfrescos.click();
+			} else {
+				if(psecos) psecos.click();
+			}
+		}
+	}
 })();

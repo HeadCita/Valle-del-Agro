@@ -5,9 +5,9 @@
     <title>Valle del Agro</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.flexslider.js"></script>
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <script src="js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" charset="utf-8">
         $(window).load(function () {
             $('.flexslider').flexslider(
@@ -32,8 +32,8 @@
                     <li><a href="./index.html" class="active">Inicio</a></li>
                     <li><a href="./productos/index.html" class="menuProducts">Productos</a>
                         <ul>
-                            <li><a>Productos secos</a></li>
-                            <li><a>Productos frescos</a></li>
+                            <li><a href="./productos/">Productos secos</a></li>
+                            <li><a href="./productos/#productos-frescos">Productos frescos</a></li>
                         </ul>
                     </li>
                     <li><a href="./nosotros/index.html">Nosotros</a></li>
@@ -85,18 +85,15 @@
         <div class="contenedor">
             <div class="column-marron marron-1">
                 <div class="items first-column secos">
-                    <div class="producto seco">
-                        <!--<img src="http://lorempixel.com/500/300" alt="">-->
-                    </div>
-                    <a href="#">
-                        <h3>Productos secos <span class="fa fa-angle-right"></spancla></h3>
+                    <a href="./productos/#productos-secos">
+                        <h3>Productos secos <span class="fa fa-angle-right"></span></h3>
                     </a>
                 </div>
-                <div class="items first-column">
+                <div class="items first-column first-product">
                     <div class="producto">
                         <img src="img/galeria/castilla300x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#castilla">
                         <h4>Frijol Castilla</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -107,7 +104,7 @@
                     <div class="producto">
                         <img src="img/galeria/panamito300x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#panamito">
                         <h4>Frijol Panamito</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -119,7 +116,7 @@
                     <div class="producto">
                         <img src="img/galeria/palo300x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#palo">
                         <h4>Frejol de Palo</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -132,7 +129,7 @@
                     <div class="producto">
                         <img src="img/galeria/canario300x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#canario">
                         <h4>Frejol Canario</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -144,7 +141,7 @@
                     <div class="producto">
                         <img src="img/galeria/loctao300x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#loctao">
                         <h4>Frijol Loctao</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -155,7 +152,7 @@
                     <div class="producto">
                         <img src="img/galeria/pallargrande300x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#pallar">
                         <h4>Pallar</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -166,7 +163,7 @@
                     <div class="producto">
                         <img src="img/galeria/pallarbb300x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#pallarbb">
                         <h4>Pallar Bebé</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -176,18 +173,15 @@
             </div>
             <div class="blue-column">
                 <div class="items third-column frescos">
-                    <div class="producto fresco blue">
-                        <!--<img src="http://lorempixel.com/500/300" alt="">-->
-                    </div>
-                    <a href="#">
+                    <a href="./productos/#palta">
                         <h3>Productos frescos <span class="fa fa-angle-right"></span></h3>
                     </a>
                 </div>
-                <div class="items third-column">
+                <div class="items third-column first-product">
                     <div class="producto blue">
                         <img src="img/galeria/mango500x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#mango">
                         <h4>Mango</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -198,7 +192,7 @@
                     <div class="producto blue">
                         <img src="img/galeria/palta500x300.jpg" alt="">
                     </div>
-                    <a href="#">
+                    <a class="item__link" href="./productos/#palta">
                         <h4>Palta</h4>
                         <!--<div class="producto__descripcion">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, itaque?</p>
@@ -241,7 +235,7 @@
         <div class="content-footer">
             <div class="footer-column">
                 <p class="p-title">Corporación Valle del Agro SAC</p>
-                <p><span class="black">Dirección:</span> Av. San Ramón Mz. A Lote 04 Urb. San Dionisio, El Chipre – Piura</p>
+                <p><span class="black">Dirección:</span> Av. San Ramón Mz. A Lote 04 Urb. San Dionisio, El Chipe – Piura</p>
                 <p><span class="black">Teléfono:</span> (51) 941 125 848</p>
                 <p><span class="black">E-Mail:</span> administracion@valledelagro.com <br> mdioses@valledelagro.com</p>
             </div>
