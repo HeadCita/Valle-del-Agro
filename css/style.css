@@ -1140,6 +1140,22 @@ form #btn-formData{
         display: none;
     }
 
+    /*--------Pagina Productos-------*/
+    .file-tabs{
+        flex-direction: column;
+    }
+    .tabs{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tabs__item{
+        font-size: 15px;
+    }
+    .tabs__item:hover{
+    color: white;
+    background: #00B140;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -1179,6 +1195,18 @@ form #btn-formData{
 
     .contenedor .column-marron {
         flex-wrap: wrap;
+    }
+
+    /*--------Pagina Productos-------*/
+    .image-description{
+        flex-direction: column;
+    }
+    .panels__item .image-description .image{
+        width: 250px;
+        margin: 15px auto;
+    }
+    .panels__item .image-description .description{
+        text-align: center;    
     }
 }
 
