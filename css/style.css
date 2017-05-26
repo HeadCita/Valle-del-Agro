@@ -1082,16 +1082,34 @@ form #btn-formData{
     }
 
     /*---CONTACTO---*/
+    form .title-form {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    form .title-form h3{
+        margin-top: 15px;
+    }
+    form .form-hr{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     form .content-form .form-column{
 	    width: 100%;
+        margin-bottom: 20px;
+        order: 2;
 	}
 
-    form .content-formrm-data{
+    form .content-form .form-data{
 	    width: 100%;
+        order: 1;
     }
 
 	form .content-form .form-column .social-contact ul{
         justify-content: center;
+        margin-left: auto;
     }
 
     /*---- GALERIA ----*/
@@ -1142,6 +1160,22 @@ form #btn-formData{
 
     .fa {
         display: none;
+    }
+
+    /*--------Pagina Productos-------*/
+    .file-tabs{
+        flex-direction: column;
+    }
+    .tabs{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tabs__item{
+        font-size: 15px;
+    }
+    .tabs__item:hover{
+    color: white;
+    background: #00B140;
     }
 
 }
@@ -1226,6 +1260,18 @@ form #btn-formData{
     .contenedor .frescos {
         width: calc(100% - 0px);
         margin-bottom: 10px;
+    }
+
+    /*--------Pagina Productos-------*/
+    .image-description{
+        flex-direction: column;
+    }
+    .panels__item .image-description .image{
+        width: 250px;
+        margin: 15px auto;
+    }
+    .panels__item .image-description .description{
+        text-align: center;    
     }
 
 }
