@@ -350,7 +350,7 @@ header nav ul li ul:hover {
 }
 
 .products-gallery h4{
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .contenedor {
@@ -1115,6 +1115,10 @@ form #btn-formData{
         width: calc(33.33% - 0px);
     }
 
+    .contenedor .second-column:nth-last-child(1) {
+        padding-top: 10px;
+    }
+
     .column-marron .first-item {
         padding-left: 0px;
     }
@@ -1177,9 +1181,53 @@ form #btn-formData{
     /* --- GALERIA ----*/
 
 
-    .contenedor .column-marron {
-        flex-wrap: wrap;
+    .contenedor .first-column {
+        width: calc(80% - 0px);
+        padding-left: 0;
+        padding-bottom: 10px; 
     }
+
+    .contenedor .first-column:nth-last-child(1) {
+        padding-bottom: 0; 
+    }
+
+    .contenedor .secos {
+        width: calc(100% - 0px);
+    }
+
+    .contenedor .second-column {
+        width: calc(80% - 0px);
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .contenedor .second-column:nth-last-child(1) {
+        padding-bottom: 0;
+    }
+
+    .column-marron .first-item {
+        padding-left: 0px;
+    }
+
+    .second-column .last-item {
+        padding-right: 10px;
+    }
+
+    .contenedor .third-column {
+        width: calc(80% - 0px);
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .contenedor .third-column:nth-last-child(1) {
+        padding-bottom: 0;
+    }
+
+    .contenedor .frescos {
+        width: calc(100% - 0px);
+        margin-bottom: 10px;
+    }
+
 }
 
 
