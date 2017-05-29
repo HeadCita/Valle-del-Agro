@@ -816,6 +816,27 @@ footer .content-footer .footer-column p .black {
         width: 850px;
 }
 
+.recetas {
+    display: flex;
+    flex-direction: row;
+}
+
+.recetas__item h5{
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+.recetas__item h6{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.recetas__item{
+    margin-top: 0px;
+}
+.recetas__item img{
+    margin: 0 auto;
+}
+
 /*---NOSOTROS-SABER MÁS---*/
 .about-us-us{
     margin: auto;
