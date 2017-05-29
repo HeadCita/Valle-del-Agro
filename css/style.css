@@ -350,7 +350,7 @@ header nav ul li ul:hover {
 }
 
 .products-gallery h4{
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .contenedor {
@@ -748,70 +748,55 @@ footer .content-footer .footer-column p .black {
     color: #00B140;
     font-weight: bold;
 }
-
-
 .panels{
     margin: 15px;
     flex-basis: calc(75% - 30px);
     min-height: 420px;
 }
-
 .panels__item{
     position: absolute;
     left: -500%;
 }
-
 .panels__item.tab-active{
     position: relative;
     left: 0;
 }
-
 .panels__item{
     width: 100%;
     padding-left: 30px;
 }
-
 .panels__item .image-description{
     width: 100%;
     display: flex;
 }
-
 .panels__item .image-description .image{
     width: 20%;
 }
-
 .panels__item .image-description .image img{
     width: 100%;
 }
-
 .panels__item .image-description .description{
     width: 80%;
     margin-left: 30px;
 }
-
 .panels__item .image-description .description h3{
     font-size: 45px;
     line-height: 1.5em;
     margin-bottom: 10px;
 }
-
 .panels__item .image-description .description hr{
     margin-top: 15px;
     align-self: flex-end;
 }
-
 .panels__item .blackProd{
     font-weight: bold;
 }
-
 .panels__item p{
     line-height: 2em;
 }
-
 .panels__item .features p{
     margin-top: 28px;
 }
-
 .container {
         width: 850px;
 }
@@ -842,12 +827,9 @@ footer .content-footer .footer-column p .black {
     margin: auto;
 }
 .about-us-us .img-about-us{
-    background: url('../img/nosotros/foto.jpg');
-    height: 400px;
+    background: url('../img/nosotros/Nosotros.png');
+    height: 500px;
     background-size: cover;
-}
-.about-us-us .text-about-us.container{
-    width: 50%;
 }
 .about-us-us h2{
     background-color: #75787B;
@@ -857,16 +839,44 @@ footer .content-footer .footer-column p .black {
     text-align: center;
     font-size: 40px;    
 }
-.about-us-us .text-about-us h3{
-    margin-top: 100px;
-    margin-bottom: 50px;
+.about-us-us .text-about-us{
+    position: relative;
+}
+.about-us-us .text-about-us a{
+    display: block;
+    text-decoration: none;
+    color: #75787B;
+    line-height: 55.5px;
     font-size: 25px;
+    margin-left:5%;
+    border-bottom: 1px solid #75787B;
+}
+.text-about-us #empresa, .text-about-us #vision, .text-about-us #mision, .text-about-us #valores{
+    background-color: #FFF;
+	position: absolute;
+    top: 0;
+	width: 70%;
+    height: 300px;
+    margin-left:30%;
+    padding: 0 60px 15px 40px;
+    display: none;
+}
+.text-about-us a:hover{color: #00B140; font-weight: bold;}
+
+.text-about-us #empresa:target{ display: block;}
+.text-about-us #vision:target{ display: block;}
+.text-about-us #mision:target{ display: block;}
+.text-about-us #valores:target{ display: block;}
+
+.about-us-us .text-about-us h3{
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 55.5px;
     color: #75787B;
     font-weight: bolder;
-    text-align: center;
+    border-bottom: 1px solid #75787B;
 }
 .about-us-us .text-about-us p{
-    text-align: center;
     color: #75787B;
     font-size: 20px;
 }
@@ -1103,16 +1113,32 @@ form #btn-formData{
     }
 
     /*---CONTACTO---*/
+    form .title-form {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    form .title-form h3{
+        margin-top: 15px;
+    }
+    form .form-hr{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     form .content-form .form-column{
 	    width: 100%;
+        margin-bottom: 20px;
+        order: 2;
 	}
-
-    form .content-formrm-data{
+    form .content-form .form-data{
 	    width: 100%;
+        order: 1;
     }
-
 	form .content-form .form-column .social-contact ul{
         justify-content: center;
+        margin-left: auto;
     }
 
     /*---- GALERIA ----*/
@@ -1134,6 +1160,10 @@ form #btn-formData{
 
     .contenedor .second-column {
         width: calc(33.33% - 0px);
+    }
+
+    .contenedor .second-column:nth-last-child(1) {
+        padding-top: 10px;
     }
 
     .column-marron .first-item {
@@ -1214,8 +1244,51 @@ form #btn-formData{
     /* --- GALERIA ----*/
 
 
-    .contenedor .column-marron {
-        flex-wrap: wrap;
+    .contenedor .first-column {
+        width: calc(80% - 0px);
+        padding-left: 0;
+        padding-bottom: 10px; 
+    }
+
+    .contenedor .first-column:nth-last-child(1) {
+        padding-bottom: 0; 
+    }
+
+    .contenedor .secos {
+        width: calc(100% - 0px);
+    }
+
+    .contenedor .second-column {
+        width: calc(80% - 0px);
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .contenedor .second-column:nth-last-child(1) {
+        padding-bottom: 0;
+    }
+
+    .column-marron .first-item {
+        padding-left: 0px;
+    }
+
+    .second-column .last-item {
+        padding-right: 10px;
+    }
+
+    .contenedor .third-column {
+        width: calc(80% - 0px);
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .contenedor .third-column:nth-last-child(1) {
+        padding-bottom: 0;
+    }
+
+    .contenedor .frescos {
+        width: calc(100% - 0px);
+        margin-bottom: 10px;
     }
 
     /*--------Pagina Productos-------*/
@@ -1229,6 +1302,7 @@ form #btn-formData{
     .panels__item .image-description .description{
         text-align: center;    
     }
+
 }
 
 
