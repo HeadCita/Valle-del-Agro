@@ -14,7 +14,7 @@
     display: block;
     width: 100%;
     text-align: center;
-    color: #00B140;
+    color: #fff;
     font-size: 60px;
 }
 /*----Float Button----->*/
@@ -333,14 +333,12 @@ header nav ul li ul:hover {
 }
 /*----Galería de productos----->*/
 .products-gallery{
-    margin-top: 100px;
 }
 .products-gallery h2{
     display: block;
     text-align: center;
     font-size: 35px;
-    padding: 15px  0 0 0;
-    color: #555;
+    color: #fff;
 }
 .products-gallery h3{
     /*padding: 15px 0 0 0;*/
@@ -355,7 +353,6 @@ header nav ul li ul:hover {
 
 .contenedor {
     width: 100%;
-    margin-top: 30px;
     justify-content: space-between;
     position: relative;
 }
@@ -537,25 +534,30 @@ header nav ul li ul:hover {
     opacity: 1;
 }*/
 
+.productos-title {
+    color: #fff;
+    padding-top: 60px;
+    background-color: #00B140;
+}
+
+.productos-title span {
+    color: #fff;
+}
 
 /*------ABOUT---US--->*/
 .about-us{
-    margin-top: 100px;
 }
 .about-us h2{
     display: block;
     text-align: center;
     font-size: 35px;
-    padding: 15px  0 0 0;
-    color: #555;
-
+    color: #fff;
 }
 
 .about-us .img-about {
-    margin-top: 30px;
-    background: url('../img/nosotros/foto.jpg');
-    height: 400px;
-    background-size: cover;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .about-us .text-about {
     display: flex;
@@ -589,22 +591,29 @@ header nav ul li ul:hover {
     background: #008010;
 }
 
+.nosotros-title {
+    padding-top: 60px;
+    background-color: #00B140;
+}
 /*-----CONTACTO----*/
 .contact-us{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .contact-us h2{
-    padding: 15px 0 0 0;
     font-size: 35px;
     text-align: center;
-    color: #555;
+    color: #fff;
 }
 .contact-us .map-container{
-    margin-top: 30px;
 }
 .contact-us .map-container iframe{
     pointer-events: none;
     display: block;
+}
+
+.contactenos-title {
+    padding-top: 60px;
+    background-color: #00B140;
 }
 
 /*-------------footer-------------*/
@@ -1163,7 +1172,7 @@ form #btn-formData{
     }
 
     .contenedor .second-column:nth-last-child(1) {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     .column-marron .first-item {
@@ -1303,6 +1312,17 @@ form #btn-formData{
         text-align: center;    
     }
 
+    .productos-title {
+        padding-top: 20px;
+    }
+
+    .nosotros-title {
+        padding-top: 20px;
+    }
+
+    .contactenos-title {
+        padding-top: 20px;
+    }
 }
 
 
