@@ -833,6 +833,7 @@ footer .content-footer .footer-column p .black {
 }
 .recetas__item{
     margin-top: 0px;
+    width: 50%;
 }
 .recetas__item img{
     margin: 0 auto;
