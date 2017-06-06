@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Valle del Agro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider(
+                {
+                    animation: 'slide',
+                    touch: true,
+                    pauseOnHover: false,
+                    pauseOnAction: false,
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+    <a href="#" class="fa fa-angle-up" aria-hidden="true" id="floatButton"></a>
+    <div class="mobile-bar"><span>##</span>Valle del Agro</div>
+    <header>
+        <div class="container">
+            <figure><img src="../img/logo/logo.png" alt="Valle del Agro"></figure>
+            <nav>
+                <ul>
+                    <li><a href="../">Inicio</a></li>
+                    <li><a href="../productos" class="menuProducts">Productos</a>
+                        <ul>
+                            <li><a href="../productos/">Productos secos</a></li>
+                            <li><a href="../productos/#productos-frescos">Productos frescos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../nosotros">Nosotros</a></li>
+                    <li><a href="./contacto" class="active">Contacto</a></li>
+                    <li class="flag"><a href="#"><img src="../img/languages/spain.png" alt="En español"></a></li>
+                    <li class="flag"><a href="#"><img src="../img/languages/united-states-of-america.png" alt="In English"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr class="bottom-header">
+    
+
+    <section class="contact-us-contact">
+        <h2>Contáctanos</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/d/embed?mid=15Jq1GcUlgWpi-bXe3iEyw9UJbcI" width="100%" height="440" frameborder="0"></iframe>
+        </div>
+    </section>
+  
+    
+    <!--formulario-->
+    <form>
+    	<div class="title-form">
+    		<img src="../img/logo/logo.png" alt="" height="75px">
+    		<h3>CORPORACIÓN VALLE DEL AGRO SAC</h3>            
+    	</div>
+        <div class="form-hr">
+            <hr>
+        </div>        
+    	<div class="content-form">
+    		<div class="form-column">
+    			<h4>Dirección</h4>
+    			<hr>
+    			<p>Av. San Ramón Mz. A Lote 04 Urb. San Dionisio, El Chipe – Piura</p>
+    			<h4>Teléfono</h4>
+    			<hr>
+    			<p>(51) 941 125 848</p>
+    			<h4>E-mail</h4>
+    			<hr>
+    			<p>administracion@valledelagro.com <br> mdioses@valledelagro.com</p>
+    			<h4>Redes Sociales</h4>
+    			<hr>
+    			<div class="social-contact">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/valledelagro" target="_blank" class="fa fa-facebook-official" id="fb"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/valledelagro" target="_blank" class="fa fa-twitter" id="tw"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCZYfwXgnERedYGLzn1zv34g" target="_blank" class="fa fa-youtube" id="yt"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/valledelagro" target="_blank" class="fa fa-instagram" id="li"></a>
+                    </li>
+                </ul>
+                </div>
+    		</div>
+    		<div class="form-data">
+    			<h4>Contáctanos</h4>
+    			<hr>
+    			<input type="text" placeholder="Nombres y apellidos *" required id="nombres">
+    			<input type="email" placeholder="Email *" required id="email">
+    			<input type="tel" placeholder="Teléfono/Celular (opcional)" id="telefono">
+    			<textarea rows="5" cols="50" placeholder="Mensaje" id="mensaje"></textarea>
+                <div class="submit">
+                    <div class="info">
+                        <p>* Información Obligatoria</p>                
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Deseo recibir newsletter</label>
+                    </div>    			
+                    <input type="submit" id="btn-formData" value="ENVIAR">
+                </div>
+    		</div>
+    	</div>
+    </form>
+
+    <!--Footer-->
+    <footer>
+        <div class="content-footer">
+            <div class="footer-column">
+                <p class="p-title">Corporación Valle del Agro SAC</p>
+                <p><span class="black">Dirección:</span> Av. San Ramón Mz. A Lote 04 Urb. San Dionisio, El Chipe – Piura</p>
+                <p><span class="black">Teléfono:</span> (51) 941 125 848</p>
+                <p><span class="black">E-Mail:</span> administracion@valledelagro.com</p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="http://www.facebook.com/valledelagro" target="_blank" class="fa fa-facebook-official" id="fb"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/valledelagro" target="_blank" class="fa fa-twitter" id="tw"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCZYfwXgnERedYGLzn1zv34g" target="_blank" class="fa fa-youtube" id="yt"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/valledelagro" target="_blank" class="fa fa-instagram" id="li"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="privacy-policy">
+            <p>Valle del Agro &copy; 2017. Privacy Policy | Desarrollado por HeadCita </p>
+        </div>
+    </footer>
+
+    <script src="../js/source.js"></script>
+</body>
+</html>

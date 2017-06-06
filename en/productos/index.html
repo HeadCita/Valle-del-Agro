@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Valle del Agro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider(
+                {
+                    animation: 'slide',
+                    touch: true,
+                    pauseOnHover: false,
+                    pauseOnAction: false,
+                }
+            );
+        });
+    </script>
+</head>
+
+<body>
+    <a href="#" class="fa fa-angle-up" aria-hidden="true" id="floatButton"></a>
+    <div class="mobile-bar"><span>##</span>Valle del Agro</div>
+    <header>
+        <div class="container">
+            <figure><img src="../img/logo/logo.png" alt="Valle del Agro"></figure>
+            <nav>
+                <ul>
+                    <li><a href="../">Inicio</a></li>
+                    <li><a href="./productos" class="menuProducts active">Productos</a>
+                        <ul>
+                            <li><a href="../productos/">Productos secos</a></li>
+                            <li><a href="../productos/#productos-frescos">Productos frescos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../nosotros">Nosotros</a></li>
+                    <li><a href="../contacto">Contacto</a></li>
+                    <li class="flag">
+                        <a href="#"><img src="../img/languages/spain.png" alt="En español"></a>
+                    </li>
+                    <li class="flag">
+                        <a href="#"><img src="../img/languages/united-states-of-america.png" alt="In English"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr class="bottom-header">
+
+    <!-- Productos Secos -->
+    <section class="seccion-productos-secos">
+        <div class="file-title" id="productos-secos">
+            <h2 class="file-title__text">Productos secos</h2>
+        </div>
+        <div class="file-tabs">
+            <div class="tabs" id="tabs">
+                <div class="tabs__item tabs1 tab-active" id="castilla">Frijol Castilla ></div>
+                <div class="tabs__item tabs1" id="panamito">Frijol Panamito ></div>
+                <div class="tabs__item tabs1" id="palo">Frijol de Palo ></div>
+                <div class="tabs__item tabs1" id="canario">Frijol Canario ></div>
+                <div class="tabs__item tabs1" id="loctao">Frijol Loctao ></div>
+                <div class="tabs__item tabs1" id="pallar">Pallar ></div>
+                <div class="tabs__item tabs1" id="pallarbb">Pallar bebé ></div>
+            </div>
+            <div class="panels">
+                <div class="panels__item panels1 tab-active">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/castilla300x300.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Frijol Castilla</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Vigna Unguiculata</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0713.39.92.00</p>
+                            <p><span class="blackProd">Origen: </span>Costa del norte del Perú</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>El frijol es una leguminosa que constituye una rica fuente de proteínas e hidratos de carbono. Este
+                            grano es de color crema con mancha negra, forma ovalada y alargada con un diámetro promedio de
+                            5.5mm.
+                        </p>
+                        <p><span class="blackProd">Calibre:</span></p>
+                        <p>460/480 - 480/520 granos en 100 gr.</p>
+                        <p><span class="blackProd">Porcentaje defecto:</span></p>
+                        <p>2.5% - 3 % máximo. Selección 100% máquina y manual.</p>
+                        <p><span class="blackProd">Empaque:</span> Sacos de polipropileno de 25 kg. / 50 lbs. / 100lbs. Peso
+                            Neto.
+                        </p>
+                    </div>
+                </div>
+                <div class="panels__item panels1">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/panamito300x300.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Frijol Panamito</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Cajanus Cajan (L) Millsp.</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0713.33.92.00</p>
+                            <p><span class="blackProd">Origen: </span>Valles Interandinos del Perú</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>El frijol panamito es un grano blanco de forma ovalada de tamaño mediano. Resalta por su alto contenido
+                            de magnesio, rico en proteínas, carbohidratos, fibra y vitaminas.</p>
+                        <p><span class="blackProd">Calibre:</span></p>
+                        <p>580/640 en 100 gr. Selección 100% a máquina y a mano.</p>
+                        <p><span class="blackProd">Empaque:</span> Sacos de polipropileno de 25/50 Kg. – 50/100 lbs. Peso neto.</p>
+                    </div>
+                </div>
+                <div class="panels__item panels1">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/palo300x300.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Frijol de Palo</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Cajanus Cajan.</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0713.33.99.00</p>
+                            <p><span class="blackProd">Origen: </span>Costa del norte del Perú</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>Es un grano de forma redondo y tamaño pequeño de color marrón o beige oscuro con pintitas marrones
+                            más oscuras, es rico en proteínas, carbohidratos y minerales.</p>
+                        <p><span class="blackProd">Calibre:</span></p>
+                        <p>520/640 en 100 gr. Selección 100% a máquina y a mano.</p>
+                        <p><span class="blackProd">Empaque:</span> Sacos de polipropileno de 25/50 Kg. – 50/100 lbs. Peso neto.</p>
+                    </div>
+                </div>
+                <div class="panels__item panels1">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/canario300x300.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Frijol Canario</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Phaseolus Vulgaris.</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0713.33.92.00</p>
+                            <p><span class="blackProd">Origen: </span>Costa norte del Perú.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>Es una legumbre, fruto comestible de grano maduro, seco y entero, de color amarillo.</p>
+                        <p><span class="blackProd">Se comercializa en dos variedades:</span></p>
+                        <p>Camanejo y amarillo.</p>
+                        <p><span class="blackProd">Empaque:</span> Sacos de polipropileno de 25/50 Kg. Peso Neto.</p>
+                    </div>
+                </div>
+                <div class="panels__item panels1">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/loctao300x300.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Frijol Loctao</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Vigna Radiata.</p>
+                            <p><span class="blackProd">Partida arancelaria: </span>0713.39.10.00</p>
+                            <p><span class="blackProd">Origen: </span>Costa Norte y Selva Alta del Perú.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>Es un grano pequeño de forma casi esférica, de color verde brillante. Rico en proteínas, carbohidratos
+                            y minerales. </p>
+                        <p><span class="blackProd">Calibre:</span></p>
+                        <p>Estándar con 3% máximo de defectos totales. Selección 100% máquina y manual.</p>
+                        <p><span class="blackProd">Empaque:</span> Sacos de polipropileno de 25/50 Kg. – 50/100 lbs. Peso neto.</p>
+                    </div>
+                </div>
+                <div class="panels__item panels1">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/pallargrande300x300.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Pallar</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Phaseolus lunatus.</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0713.39.91.00.</p>
+                            <p><span class="blackProd">Origen: </span>Región Sur del Perú.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>Es un grano de tamaño extra grande de forma arriñonada aplanada de color blanco cremoso.</p>
+                        <p><span class="blackProd">Calibre:</span></p>
+                        <p>45/50 – 65/70 granos de 100 gr. </p>
+                        <p><span class="blackProd">Porcentaje defecto:</span></p>
+                        <p> 2,5% a 3% máximo de defectos totales. Selección 100% máquina y manual. </p>
+                        <p><span class="blackProd">Empaque:</span> Sacos de polipropileno de 25/50 Kg. – 50/100 lbs. Peso neto.</p>
+                    </div>
+                </div>
+                <div class="panels__item panels1">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/pallarbb300x300.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Pallar bebé</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Phaseolus lunatus</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0713.33.91.00</p>
+                            <p><span class="blackProd">Origen: </span>Región Sur del Perú</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>Es un grano mediando de forma oval aplastada, color blanco cremoso de suave textura y agradable sabor.</p>
+                        <p><span class="blackProd">Calibre:</span></p>
+                        <p>240/260 granos en 100 gr.</p>
+                        <p><span class="blackProd">Porcentaje defecto:</span></p>
+                        <p>2.5% a 3% máximo de defectos totales. Selección 100% máquina y manual.</p>
+                        <p><span class="blackProd">Empaque:</span> Sacos de polipropileno de 25/50 Kg. – 50/100 lbs. Peso neto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="file-title frescos" id="productos-frescos">
+            <h2 class="file-title__text">Productos frescos</h2>
+        </div>
+        <div class="file-tabs">
+            <div class="tabs" id="tabs2">
+                <div class="tabs__item tabs__item2 tab-active" id="palta">Palta ></div>
+                <div class="tabs__item tabs__item2" id="mango">Mango ></div>
+            </div>
+            <div class="panels">
+                <div class="panels__item panels__item2 tab-active">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/Palta300x300.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Palta</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Persea Americana Mill. Variedad “Hass”</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0804.40.00.00</p>
+                            <p><span class="blackProd">Disponible: </span>Abril a Agosto.</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>Piel que varía de verde a morado negrusco al madurar, pulpa verde pálida con textura cremosa. Forma
+                            ovalada, semilla de tamaño pequeño a mediano.</p>
+                        <div class="recetas">
+                            <div class="recetas__item">
+                                <h5>PALTA RELLENA CON POLLO </h5>
+                                <p>6 PORCIONES</p>
+                                <img src="../img/recetas/R001-Palta250x250.png" alt="Receta 1 Palta">
+                                <h6>Ingredientes</h6>
+                                <p>
+                                    1 Pechuga de pollo (con hueso)<br> 
+                                    1 vara de apio en cubitos pequeños<br> 
+                                    1 cda. de ciboulette<br>
+                                    picada 1 cda. de mostaza<br> 
+                                    1 cda. de crema <br>
+                                    1 yogurt natural 70 gr. de queso crema <br>Sal<br> 
+                                    3 paltas Hass
+                                </p>
+                                <h6>Preparación</h6>
+                                <p>1. En una olla hervir 3 litros de agua a fuego alto. Una vez que haya hervido, incorporar
+                                    la pechuga de pollo y cocinar 35-40 minutos o hasta que esté cocida. Retirar de la olla
+                                    y dejar enfriar.</p>
+                                <p>2. Cortar las pechugas de pollo en cubitos de 1 cm. y reservar. En un bol mezclar el apio,
+                                    ciboulette, mostaza, crema, yogurt y queso crema, agregar el pollo reservado y condimentar
+                                    con sal.</p>
+                                <p>3. Pelar las paltas, cortar en mitades, extraer el carozo suavemente para no dañar el interior
+                                    y rellenar cada palta con la pasta de pollo.
+                                </p>
+                            </div>
+                            <div class="recetas__item">
+                                <h5>ENSALADA CÉSAR HASS</h5>
+                                <p>2 PORCIONES</p>
+                                <img src="../img/recetas/R002-Palta250x250.png" alt="Receta 2 palta">
+                                <h6>Ingredientes</h6>
+                                <p>
+                                    Lechugas de diferentes variedades<br> 
+                                    1 pechuga de pollo cocida y deshuesada<br> 
+                                    ½ taza aceite de oliva<br>
+                                    1 diente de ajo picado<br> 
+                                    3 yemas de huevos<br>
+                                    1 palta Hass en láminas<br>
+                                    Queso parmesano<br> 
+                                    Sal y pimienta a gusto<br>
+                                    Crutones de pan
+                                </p>
+                                <h6>Preparación</h6>
+                                <p>1. Deshojar las lechugas, mantener en agua fría hasta utilizar.
+Cortar las pechugas de pollo en tiras y reservar.</p>
+                                <p>2. En una licuadora colocar las yemas y ajo y licuar agregando el
+aceite hasta obtener una mayonesa.</p>
+                                <p>3. Mezclar las lechugas con la mayonesa, agregar las tiras de pollo
+y rodajas de palta.
+                                </p>
+                                <p>4. Agregar abundante queso parmesano rallado en lonjas. Sazonar
+con sal y pimienta. Agregar crutones de pan y servir</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panels__item panels__item2">
+                    <div class="image-description">
+                        <div class="image">
+                            <img src="../img/galeria/Mango300x300.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Mango</h3>
+                            <p><span class="blackProd">Nombre Científico: </span>Manguifera índica.</p>
+                            <p><span class="blackProd">Partida Arancelaria: </span>0804.50.20.00</p>
+                            <p><span class="blackProd">Variedad: </span>Kent</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <p><span class="blackProd">Características:</span></p>
+                        <p>La variedad Kent es única por su aroma, sabor profundo, suave textura y ausencia de fibra. Las zonas
+                            donde cultivamos nuestros frutos poseen condiciones climáticas únicas con sus propias circunstancias
+                            particulares. Piura, por ejemplo, con sus grandes diferencias de temperatura entre el verano
+                            y el invierno, hacen de esta tierra una ubicación privilegiada. Los mejores mangos en color y
+                            tamaño provienen de esta zona.</p>
+                        <p><span class="blackProd">Calibres:</span></p>
+                        <p>6 – 7 – 8 – 9 – 10 – 12-14.</p>
+                        <p><span class="blackProd">Calendario:</span></p>
+                        <p>Nov-Dic-Ene-Feb-Mar.</p>
+                        <p><span class="blackProd">Empaque:</span> Cajas de cartón de 4kg.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Frescos -->
+
+    <!--Contáctanos-->
+    <section class="contact-us">
+        <h2>Contáctanos</h2>
+        <span class="fa fa-angle-down underline"></span>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/d/embed?mid=15Jq1GcUlgWpi-bXe3iEyw9UJbcI" width="100%" height="440" frameborder="0"></iframe>
+        </div>
+
+    </section>
+    <a href="#productos-frescos" style="display: none" id="pfrescos"></a>
+    <a href="#productos-secos" style="display:none" id="psecos"></a>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="content-footer">
+            <div class="footer-column">
+                <p class="p-title">Corporación Valle del Agro SAC</p>
+                <p><span class="black">Dirección:</span> Av. San Ramón Mz. A Lote 04 Urb. San Dionisio, El Chipe – Piura</p>
+                <p><span class="black">Teléfono:</span> (51) 941 125 848</p>
+                <p><span class="black">E-Mail:</span> administracion@valledelagro.com <br> mdioses@valledelagro.com</p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/valledelagro" target="_blank" class="fa fa-facebook-official" id="fb"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/valledelagro" target="_blank" class="fa fa-twitter" id="tw"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCZYfwXgnERedYGLzn1zv34g" target="_blank" class="fa fa-youtube" id="yt"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/valledelagro" target="_blank" class="fa fa-instagram" id="li"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="privacy-policy">
+            <p>Valle del Agro &copy; 2017. Privacy Policy | Desarrollado por HeadCita </p>
+        </div>
+    </footer>
+
+    <script src="../js/source.js"></script>
+</body>
+
+</html>
