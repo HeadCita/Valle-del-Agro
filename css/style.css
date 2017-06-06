@@ -182,9 +182,9 @@ header nav ul li ul:hover {
     color: #fff;
     width: 100%;
     text-align: center;
-    text-shadow: 2px -1px 5px #000;
+    text-shadow: 2px 2px 19px #333;
     top: 40%;
-    font-size: 3.3em;
+    font-size: 3.7em;
 }
 
 .slides {
