@@ -40,7 +40,7 @@ a.fa-angle-up{
 header{
     display: block;
     width: 100%;
-    z-index: 500;
+    z-index: 2000;
     position: fixed;
     background: white;
     top: 0;
@@ -131,6 +131,7 @@ header nav ul li ul li{
     width: 100%;
     margin: 0;
     padding: 0;
+    z-index: 1000;
 }
 
 header nav ul li ul li a{
@@ -139,6 +140,7 @@ header nav ul li ul li a{
     border-radius: 0;
     padding: 10px 10px;
     margin: 0;
+    z-index: 1000;
 }
 
 header nav ul li ul li a:hover{
@@ -177,6 +179,7 @@ header nav ul li ul:hover {
     width: 100%;
     /*height: calc(100vh - 139.547px);*/
     position: relative;
+    margin-top: 105px;
 }
 
 .flexslider .slider-title {
@@ -340,7 +343,8 @@ header nav ul li ul:hover {
     width: 100%;
     height: 8px;
     border: 0;
-    margin-top: 105px;
+    position: fixed;
+    z-index: 1000;
 }
 /*----Galería de productos----->*/
 .products-gallery{
@@ -722,6 +726,7 @@ footer .content-footer .footer-column p .black {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 105px;
 }
 .file-title.frescos{
     background: #007DBA;
@@ -852,6 +857,7 @@ footer .content-footer .footer-column p .black {
     background: url('../img/nosotros/Nosotros.png');
     height: 500px;
     background-size: cover;
+    margin-top: 105px;
 }
 .about-us-us h2{
     background-color: #75787B;
@@ -931,6 +937,7 @@ footer .content-footer .footer-column p .black {
 	font-size: 30px;
 	text-align: center;
 	padding: 20px;
+    margin-top: 105px;
 }
 form .content-form{
 	display: flex;

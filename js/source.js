@@ -134,7 +134,7 @@
 		let tab = document.getElementById(dest);
 		if (tab) {
 			tab.click();
-			if (dest == 'mango' || dest == 'palta') {
+			if (dest == 'mango' || dest == 'palta' ||'productos-frescos') {
 				if(pfrescos) pfrescos.click();
 			} else {
 				if(psecos) psecos.click();
