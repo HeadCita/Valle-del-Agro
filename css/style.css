@@ -182,6 +182,7 @@ header nav ul li ul:hover {
     color: #fff;
     width: 100%;
     text-align: center;
+    text-shadow: 2px -1px 5px #000;
     top: 40%;
     font-size: 3.3em;
 }
