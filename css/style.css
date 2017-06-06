@@ -834,6 +834,7 @@ footer .content-footer .footer-column p .black {
 /*---NOSOTROS-SABER MÁS---*/
 .about-us-us{
     margin: auto;
+    padding-bottom: 50px;
 }
 .about-us-us .img-about-us{
     background: url('../img/nosotros/Nosotros.png');
@@ -870,6 +871,7 @@ footer .content-footer .footer-column p .black {
     padding: 0 60px 15px 40px;
     display: none;
 }
+
 .text-about-us a:hover{color: #00B140; font-weight: bold;}
 
 .text-about-us #empresa:target{ display: block;}
@@ -877,13 +879,22 @@ footer .content-footer .footer-column p .black {
 .text-about-us #mision:target{ display: block;}
 .text-about-us #valores:target{ display: block;}
 
+.about-us-us .text-about-us .img-about-us-img{
+    background-color: blue;
+    width: 100px;
+    float: left;
+}
+
+.about-us-us .text-about-us .img-about-us-img img{
+    width: 100%;
+}
+
 .about-us-us .text-about-us h3{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 40px;
     line-height: 55.5px;
     color: #75787B;
     font-weight: bolder;
-    border-bottom: 1px solid #75787B;
 }
 .about-us-us .text-about-us p{
     color: #75787B;
