@@ -176,8 +176,15 @@ header nav ul li ul:hover {
     position: relative;
 }
 
-.flex-viewport{
-    /*height: 520px;*/
+.flexslider .slider-title {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px -1px 5px #000;
+    top: 40%;
+    font-size: 3.3em;
 }
 
 .slides {
@@ -1072,6 +1079,11 @@ form #btn-formData{
 }
 
 @media screen and (max-width: 720px) {
+
+    .flexslider .slider-title {
+        top: 35%;
+        font-size: 2.5em;
+    }
     /*------HEADER----------*/
     .mobile-bar {
         box-sizing: inherit;
@@ -1237,7 +1249,11 @@ form #btn-formData{
 }
 
 @media screen and (max-width: 500px) {
-
+    
+    .flexslider .slider-title {
+        top: 30%;
+        font-size: 2em;
+    }
 
 
     /*-------FOOTER----------*/
